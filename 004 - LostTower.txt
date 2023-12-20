@@ -1,0 +1,549 @@
+//######################################################################################################################
+//#MonsterSetBase: LostTower
+//######################################################################################################################
+//#Section: #0(Npc) #1(Spot) #2(Monster Individual) #3(Invasion) #4(Events) 5#(Kanturu Monster)
+//######################################################################################################################
+
+0
+//Monster      MapNumber      Range      PositionX      PositionY      Direction      Comment
+103            04             00         005            175            03             //Meteorite
+103            04             00         006            175            03             //Meteorite
+103            04             00         004            175            03             //Meteorite
+103            04             00         015            172            03             //Meteorite
+103            04             00         015            173            03             //Meteorite
+103            04             00         015            174            03             //Meteorite
+103            04             00         014            207            03             //Meteorite
+103            04             00         004            194            03             //Meteorite
+103            04             00         005            194            03             //Meteorite
+103            04             00         006            194            03             //Meteorite
+103            04             00         014            208            03             //Meteorite
+103            04             00         005            237            03             //Meteorite
+103            04             00         006            237            03             //Meteorite
+103            04             00         007            237            03             //Meteorite
+103            04             00         026            104            03             //Meteorite
+103            04             00         026            103            03             //Meteorite
+103            04             00         026            102            03             //Meteorite
+103            04             00         026            101            03             //Meteorite
+103            04             00         030            101            03             //Meteorite
+103            04             00         030            100            03             //Meteorite
+103            04             00         030            099            03             //Meteorite
+103            04             00         029            125            01             //Meteorite
+103            04             00         028            125            01             //Meteorite
+103            04             00         027            125            01             //Meteorite
+103            04             00         026            125            01             //Meteorite
+103            04             00         027            128            01             //Meteorite
+103            04             00         027            129            01             //Meteorite
+103            04             00         027            130            01             //Meteorite
+103            04             00         021            243            03             //Meteorite
+103            04             00         022            243            03             //Meteorite
+103            04             00         023            243            03             //Meteorite
+103            04             00         045            110            01             //Meteorite
+103            04             00         045            110            01             //Meteorite
+103            04             00         045            110            05             //Meteorite
+103            04             00         045            109            05             //Meteorite
+103            04             00         045            108            05             //Meteorite
+103            04             00         038            110            05             //Meteorite
+103            04             00         038            109            05             //Meteorite
+103            04             00         038            108            05             //Meteorite
+103            04             00         035            125            01             //Meteorite
+103            04             00         034            125            01             //Meteorite
+103            04             00         033            125            01             //Meteorite
+103            04             00         036            125            01             //Meteorite
+103            04             00         037            119            03             //Meteorite
+103            04             00         037            120            03             //Meteorite
+103            04             00         034            128            01             //Meteorite
+103            04             00         034            129            01             //Meteorite
+103            04             00         034            130            01             //Meteorite
+103            04             00         047            131            01             //Meteorite
+103            04             00         047            132            01             //Meteorite
+103            04             00         041            132            01             //Meteorite
+103            04             00         041            133            01             //Meteorite
+103            04             00         036            133            01             //Meteorite
+103            04             00         036            134            01             //Meteorite
+103            04             00         046            169            03             //Meteorite
+103            04             00         046            170            03             //Meteorite
+103            04             00         046            171            03             //Meteorite
+103            04             00         046            172            03             //Meteorite
+103            04             00         042            245            03             //Meteorite
+103            04             00         042            246            03             //Meteorite
+103            04             00         052            114            03             //Meteorite
+103            04             00         053            114            03             //Meteorite
+103            04             00         054            114            03             //Meteorite
+103            04             00         053            178            03             //Meteorite
+103            04             00         054            178            03             //Meteorite
+103            04             00         052            178            03             //Meteorite
+103            04             00         051            198            03             //Meteorite
+103            04             00         051            199            03             //Meteorite
+103            04             00         051            200            03             //Meteorite
+103            04             00         051            201            03             //Meteorite
+103            04             00         085            120            03             //Meteorite
+103            04             00         086            120            03             //Meteorite
+103            04             00         084            120            03             //Meteorite
+103            04             00         093            131            03             //Meteorite
+103            04             00         093            130            03             //Meteorite
+103            04             00         093            132            03             //Meteorite
+103            04             00         082            175            03             //Meteorite
+103            04             00         083            175            03             //Meteorite
+103            04             00         084            175            03             //Meteorite
+103            04             00         085            175            03             //Meteorite
+103            04             00         082            184            03             //Meteorite
+103            04             00         083            184            03             //Meteorite
+103            04             00         084            184            03             //Meteorite
+103            04             00         082            201            03             //Meteorite
+103            04             00         083            201            03             //Meteorite
+103            04             00         084            201            03             //Meteorite
+103            04             00         093            243            03             //Meteorite
+103            04             00         093            244            03             //Meteorite
+103            04             00         093            245            03             //Meteorite
+103            04             00         093            246            03             //Meteorite
+103            04             00         100            185            03             //Meteorite
+103            04             00         101            185            03             //Meteorite
+103            04             00         102            185            03             //Meteorite
+103            04             00         103            185            03             //Meteorite
+103            04             00         098            225            03             //Meteorite
+103            04             00         099            225            03             //Meteorite
+103            04             00         100            225            03             //Meteorite
+103            04             00         101            225            03             //Meteorite
+103            04             00         111            227            03             //Meteorite
+103            04             00         110            227            03             //Meteorite
+103            04             00         107            242            03             //Meteorite
+103            04             00         107            243            03             //Meteorite
+103            04             00         107            244            03             //Meteorite
+103            04             00         126            104            03             //Meteorite
+103            04             00         126            105            03             //Meteorite
+103            04             00         126            106            03             //Meteorite
+103            04             00         126            107            03             //Meteorite
+103            04             00         126            115            03             //Meteorite
+103            04             00         127            115            03             //Meteorite
+103            04             00         125            115            03             //Meteorite
+103            04             00         123            135            03             //Meteorite
+103            04             00         123            134            03             //Meteorite
+103            04             00         123            133            03             //Meteorite
+103            04             00         123            132            03             //Meteorite
+103            04             00         121            208            03             //Meteorite
+103            04             00         122            208            03             //Meteorite
+103            04             00         120            208            03             //Meteorite
+103            04             00         112            227            03             //Meteorite
+103            04             00         113            227            03             //Meteorite
+103            04             00         132            126            03             //Meteorite
+103            04             00         133            126            03             //Meteorite
+103            04             00         134            126            03             //Meteorite
+103            04             00         132            178            03             //Meteorite
+103            04             00         133            178            03             //Meteorite
+103            04             00         128            221            03             //Meteorite
+103            04             00         129            221            03             //Meteorite
+103            04             00         130            221            03             //Meteorite
+103            04             00         202            045            03             //Meteorite
+103            04             00         202            046            03             //Meteorite
+103            04             00         202            047            03             //Meteorite
+103            04             00         196            062            03             //Meteorite
+103            04             00         198            062            03             //Meteorite
+103            04             00         197            062            03             //Meteorite
+103            04             00         199            062            03             //Meteorite
+103            04             00         196            058            03             //Meteorite
+103            04             00         196            057            03             //Meteorite
+103            04             00         196            056            03             //Meteorite
+103            04             00         202            048            03             //Meteorite
+103            04             00         219            234            01             //Meteorite
+103            04             00         219            235            01             //Meteorite
+103            04             00         219            236            01             //Meteorite
+103            04             00         219            237            01             //Meteorite
+103            04             00         226            115            03             //Meteorite
+103            04             00         226            116            03             //Meteorite
+103            04             00         226            117            03             //Meteorite
+103            04             00         226            233            01             //Meteorite
+103            04             00         227            233            01             //Meteorite
+103            04             00         228            233            01             //Meteorite
+end
+
+1
+//######################################################################################################################
+//#Monster    #MapNumber    #Range      #BeginPosX     #BeginPosY     #EndPosX    #EndPosY      #Direction     #Quantity
+//######################################################################################################################
+36	4	01	192	89	192	89	-1	3	// Shadow
+36	4	01	211	104	211	104	-1	3	// Shadow
+36	4	01	201	103	201	103	-1	3	// Shadow
+36	4	01	191	115	191	115	-1	3	// Shadow
+36	4	01	165	127	166	128	-1	3	// Shadow
+36	4	01	202	136	202	136	-1	3	// Shadow
+36	4	01	227	77	227	77	-1	3	// Shadow
+36	4	01	219	36	219	36	-1	3	// Shadow
+36	4	01	192	21	192	21	-1	3	// Shadow
+39	4	01	233	120	234	121	-1	3	// PoisonShadow
+39	4	01	235	70	235	70	-1	3	// PoisonShadow
+39	4	01	235	18	235	18	-1	3	// PoisonShadow
+39	4	01	244	137	244	138	-1	3	// PoisonShadow
+39	4	01	244	118	244	118	-1	3	// PoisonShadow
+39	4	01	244	73	244	72	-1	3	// PoisonShadow
+39	4	01	243	37	243	37	-1	3	// PoisonShadow
+34	4	01	208	8	208	8	-1	3	// CursedWizard
+34	4	01	237	9	236	9	-1	3	// CursedWizard
+34	4	01	192	44	192	44	-1	3	// CursedWizard
+36	4	01	219	65	219	65	-1	3	// Shadow
+34	4	01	228	128	228	128	-1	3	// CursedWizard
+34	4	01	164	87	164	87	-1	3	// CursedWizard
+34	4	01	165	46	164	47	-1	3	// CursedWizard
+39	4	01	164	14	164	18	-1	3	// PoisonShadow
+39	4	01	238	247	238	247	-1	3	// PoisonShadow
+39	4	01	222	249	222	249	-1	3	// PoisonShadow
+34	4	01	206	248	206	248	-1	3	// CursedWizard
+34	4	01	168	247	168	247	-1	3	// CursedWizard
+34	4	01	225	237	225	237	-1	3	// CursedWizard
+39	4	01	239	214	239	214	-1	3	// PoisonShadow
+39	4	01	227	219	227	219	-1	3	// PoisonShadow
+39	4	01	170	209	170	209	-1	3	// PoisonShadow
+39	4	01	212	215	212	215	-1	3	// PoisonShadow
+39	4	01	182	228	182	227	-1	3	// PoisonShadow
+36	4	01	246	229	246	229	-1	3	// Shadow
+41	4	01	246	169	246	170	-1	3	// DeathCow
+41	4	01	246	199	246	199	-1	3	// DeathCow
+41	4	01	208	189	208	189	-1	3	// DeathCow
+41	4	01	186	178	185	179	-1	3	// DeathCow
+41	4	01	173	175	173	175	-1	3	// DeathCow
+41	4	01	166	176	166	177	-1	3	// DeathCow
+41	4	01	106	171	106	171	-1	3	// DeathCow
+34	4	01	86	177	86	177	-1	3	// CursedWizard
+34	4	01	84	201	84	201	-1	3	// CursedWizard
+41	4	01	90	226	90	228	-1	3	// DeathCow
+41	4	01	100	247	100	247	-1	3	// DeathCow
+39	4	01	99	224	99	224	-1	3	// PoisonShadow
+39	4	01	99	189	99	189	-1	3	// PoisonShadow
+41	4	01	114	235	114	235	-1	3	// DeathCow
+41	4	01	132	232	132	233	-1	3	// DeathCow
+41	4	01	131	204	131	204	-1	3	// DeathCow
+41	4	01	132	170	132	171	-1	3	// DeathCow
+34	4	01	114	187	114	188	-1	3	// CursedWizard
+34	4	01	125	192	125	192	-1	3	// CursedWizard
+34	4	01	113	210	113	211	-1	3	// CursedWizard
+41	4	01	86	103	88	103	-1	3	// DeathCow
+41	4	01	102	89	102	90	-1	3	// DeathCow
+41	4	01	87	134	87	136	-1	3	// DeathCow
+41	4	01	128	136	128	135	-1	3	// DeathCow
+37	4	01	105	113	105	113	-1	3	// Devil
+37	4	01	132	108	132	109	-1	3	// Devil
+37	4	01	124	89	124	90	-1	3	// Devil
+37	4	01	130	49	130	49	-1	3	// Devil
+37	4	01	105	27	105	27	-1	3	// Devil
+37	4	01	85	57	85	57	-1	3	// Devil
+40	4	01	117	59	117	59	-1	3	// DeathKnight
+40	4	01	129	9	129	10	-1	3	// DeathKnight
+40	4	01	90	9	90	9	-1	3	// DeathKnight
+40	4	01	83	28	83	28	-1	3	// DeathKnight
+40	4	01	45	58	45	58	-1	3	// DeathKnight
+40	4	01	55	29	55	29	-1	3	// DeathKnight
+37	4	01	38	37	38	38	-1	3	// Devil
+37	4	01	14	52	14	52	-1	3	// Devil
+35	4	01	54	10	54	10	-1	3	// DeathGorgon
+35	4	01	14	11	14	11	-1	3	// DeathGorgon
+35	4	01	22	33	22	32	-1	3	// DeathGorgon
+37	4	01	35	88	35	88	-1	3	// Devil
+37	4	01	54	98	54	98	-1	3	// Devil
+35	4	01	5	99	5	99	-1	3	// DeathGorgon
+37	4	01	7	99	7	99	-1	2	// Devil
+35	4	01	34	109	34	109	-1	2	// DeathGorgon
+40	4	01	35	110	35	110	-1	3	// DeathKnight
+37	4	01	53	122	54	122	-1	3	// Devil
+40	4	01	55	123	55	123	-1	2	// DeathKnight
+40	4	01	31	138	31	139	-1	2	// DeathKnight
+35	4	01	31	139	31	139	-1	3	// DeathGorgon
+35	4	01	5	122	5	122	-1	3	// DeathGorgon
+40	4	01	6	123	6	123	-1	2	// DeathKnight
+35	4	01	55	134	55	134	-1	3	// DeathGorgon
+35	4	01	46	168	46	168	-1	3	// DeathGorgon
+37	4	01	46	169	46	169	-1	2	// Devil
+35	4	01	8	175	8	176	-1	3	// DeathGorgon
+35	4	01	53	236	53	235	-1	3	// DeathGorgon
+40	4	01	54	199	54	199	-1	3	// DeathKnight
+40	4	01	6	226	6	227	-1	3	// DeathKnight
+40	4	01	37	193	37	193	-1	3	// DeathKnight
+40	4	01	32	226	31	227	-1	3	// DeathKnight
+35	4	01	37	194	37	194	-1	2	// DeathGorgon
+35	4	01	33	226	33	226	-1	2	// DeathGorgon
+38	4	01	8	192	8	192	-1	1	// Balrog
+38	4	01	25	244	25	244	-1	1	// Balrog
+38	4	01	23	213	23	213	-1	1	// Balrog
+38	4	01	55	182	55	182	-1	1	// Balrog
+end
+
+2
+//######################################################################################################################
+//#Monster      #MapNumber     #Range      #CoordX      #CoordY      #Direction      #Comment
+//######################################################################################################################
+035            04             30         029            208            -1             //Death Gorgon
+040            04             30         030            183            -1             //Death Knight
+035            04             30         033            206            -1             //Death Gorgon
+040            04             30         054            213            -1             //Death Knight
+036            04             30         193            239            -1             //Shadow
+036            04             30         191            131            -1             //Shadow
+036            04             30         191            118            -1             //Shadow
+036            04             30         164            029            -1             //Shadow
+036            04             30         164            037            -1             //Shadow
+036            04             30         164            048            -1             //Shadow
+036            04             30         164            063            -1             //Shadow
+036            04             30         164            074            -1             //Shadow
+036            04             30         164            098            -1             //Shadow
+036            04             30         164            112            -1             //Shadow
+036            04             30         164            126            -1             //Shadow
+036            04             30         175            127            -1             //Shadow
+036            04             30         184            128            -1             //Shadow
+036            04             30         199            134            -1             //Shadow
+036            04             30         206            136            -1             //Shadow
+036            04             30         227            136            -1             //Shadow
+036            04             30         242            135            -1             //Shadow
+039            04             30         243            125            -1             //Poison Shadow
+036            04             30         229            127            -1             //Shadow
+039            04             30         245            109            -1             //Poison Shadow
+036            04             30         217            127            -1             //Shadow
+036            04             30         244            089            -1             //Shadow
+036            04             30         207            127            -1             //Shadow
+039            04             30         219            006            -1             //Poison Shadow
+039            04             30         244            053            -1             //Poison Shadow
+036            04             30         235            056            -1             //Shadow
+036            04             30         235            038            -1             //Shadow
+036            04             30         236            026            -1             //Shadow
+036            04             30         235            015            -1             //Shadow
+036            04             30         226            014            -1             //Shadow
+036            04             30         211            015            -1             //Shadow
+036            04             30         210            101            -1             //Shadow
+036            04             30         210            114            -1             //Shadow
+039            04             30         239            007            -1             //Poison Shadow
+039            04             30         244            025            -1             //Poison Shadow
+039            04             30         243            040            -1             //Poison Shadow
+036            04             30         244            008            -1             //Shadow
+039            04             30         243            065            -1             //Poison Shadow
+036            04             30         195            099            -1             //Shadow
+039            04             30         244            082            -1             //Poison Shadow
+039            04             30         244            092            -1             //Poison Shadow
+036            04             30         226            118            -1             //Shadow
+036            04             30         235            110            -1             //Shadow
+036            04             30         235            087            -1             //Shadow
+036            04             30         199            124            -1             //Shadow
+036            04             30         193            108            -1             //Shadow
+036            04             30         209            094            -1             //Shadow
+036            04             30         235            073            -1             //Shadow
+036            04             30         196            089            -1             //Shadow
+036            04             30         219            094            -1             //Shadow
+036            04             30         190            029            -1             //Shadow
+039            04             30         210            023            -1             //Poison Shadow
+039            04             30         226            022            -1             //Poison Shadow
+039            04             30         227            033            -1             //Poison Shadow
+039            04             30         227            054            -1             //Poison Shadow
+039            04             30         228            067            -1             //Poison Shadow
+039            04             30         228            081            -1             //Poison Shadow
+039            04             30         228            104            -1             //Poison Shadow
+039            04             30         191            016            -1             //Poison Shadow
+039            04             30         220            079            -1             //Poison Shadow
+039            04             30         219            060            -1             //Poison Shadow
+039            04             30         219            045            -1             //Poison Shadow
+039            04             30         219            034            -1             //Poison Shadow
+039            04             30         202            038            -1             //Poison Shadow
+036            04             30         205            062            -1             //Shadow
+039            04             30         208            166            -1             //Poison Shadow
+039            04             30         196            166            -1             //Poison Shadow
+039            04             30         188            165            -1             //Poison Shadow
+039            04             30         179            165            -1             //Poison Shadow
+039            04             30         165            183            -1             //Poison Shadow
+034            04             30         167            197            -1             //Cursed Wizard
+039            04             30         167            211            -1             //Poison Shadow
+034            04             30         192            203            -1             //Cursed Wizard
+039            04             30         165            241            -1             //Poison Shadow
+039            04             30         184            246            -1             //Poison Shadow
+034            04             30         191            244            -1             //Cursed Wizard
+039            04             30         200            245            -1             //Poison Shadow
+039            04             30         214            245            -1             //Poison Shadow
+039            04             30         228            245            -1             //Poison Shadow
+039            04             30         245            246            -1             //Poison Shadow
+034            04             30         235            237            -1             //Cursed Wizard
+034            04             30         224            235            -1             //Cursed Wizard
+034            04             30         206            237            -1             //Cursed Wizard
+034            04             30         200            228            -1             //Cursed Wizard
+034            04             30         209            212            -1             //Cursed Wizard
+034            04             30         225            196            -1             //Cursed Wizard
+034            04             30         209            190            -1             //Cursed Wizard
+034            04             30         198            192            -1             //Cursed Wizard
+034            04             30         187            184            -1             //Cursed Wizard
+034            04             30         193            173            -1             //Cursed Wizard
+034            04             30         172            177            -1             //Cursed Wizard
+039            04             30         198            184            -1             //Poison Shadow
+039            04             30         217            196            -1             //Poison Shadow
+039            04             30         227            212            -1             //Poison Shadow
+039            04             30         217            217            -1             //Poison Shadow
+039            04             30         201            216            -1             //Poison Shadow
+039            04             30         191            238            -1             //Poison Shadow
+039            04             30         193            217            -1             //Poison Shadow
+039            04             30         178            224            -1             //Poison Shadow
+039            04             30         178            210            -1             //Poison Shadow
+039            04             30         177            195            -1             //Poison Shadow
+041            04             30         126            246            -1             //Death Cow
+041            04             30         133            235            -1             //Death Cow
+041            04             30         133            225            -1             //Death Cow
+034            04             30         133            185            -1             //Cursed Wizard
+041            04             30         133            209            -1             //Death Cow
+034            04             30         132            201            -1             //Cursed Wizard
+041            04             30         125            189            -1             //Death Cow
+041            04             30         128            175            -1             //Death Cow
+034            04             30         134            166            -1             //Cursed Wizard
+041            04             30         129            167            -1             //Death Cow
+041            04             30         097            184            -1             //Death Cow
+041            04             30         107            168            -1             //Death Cow
+034            04             30         095            173            -1             //Cursed Wizard
+041            04             30         089            174            -1             //Death Cow
+041            04             30         083            183            -1             //Death Cow
+034            04             30         086            190            -1             //Cursed Wizard
+041            04             30         083            201            -1             //Death Cow
+041            04             30         083            213            -1             //Death Cow
+041            04             30         089            224            -1             //Death Cow
+034            04             30         084            237            -1             //Cursed Wizard
+041            04             30         086            245            -1             //Death Cow
+034            04             30         098            245            -1             //Cursed Wizard
+041            04             30         108            245            -1             //Death Cow
+041            04             30         116            244            -1             //Death Cow
+041            04             30         118            229            -1             //Death Cow
+041            04             30         116            211            -1             //Death Cow
+041            04             30         111            194            -1             //Death Cow
+041            04             30         115            178            -1             //Death Cow
+041            04             30         097            202            -1             //Death Cow
+041            04             30         097            214            -1             //Death Cow
+041            04             30         102            225            -1             //Death Cow
+041            04             30         098            236            -1             //Death Cow
+034            04             30         111            219            -1             //Cursed Wizard
+034            04             30         123            224            -1             //Cursed Wizard
+041            04             30         116            134            -1             //Death Cow
+041            04             30         097            133            -1             //Death Cow
+041            04             30         085            132            -1             //Death Cow
+041            04             30         085            116            -1             //Death Cow
+041            04             30         085            096            -1             //Death Cow
+041            04             30         101            087            -1             //Death Cow
+041            04             30         118            089            -1             //Death Cow
+037            04             30         133            087            -1             //Devil
+041            04             30         116            113            -1             //Death Cow
+041            04             30         133            115            -1             //Death Cow
+037            04             30         104            136            -1             //Devil
+041            04             30         124            136            -1             //Death Cow
+037            04             30         096            116            -1             //Devil
+037            04             30         094            100            -1             //Devil
+037            04             30         089            135            -1             //Devil
+037            04             30         133            098            -1             //Devil
+041            04             30         106            112            -1             //Death Cow
+041            04             30         095            106            -1             //Death Cow
+037            04             30         112            087            -1             //Devil
+037            04             30         133            109            -1             //Devil
+037            04             30         121            119            -1             //Devil
+037            04             30         123            130            -1             //Devil
+037            04             30         087            007            -1             //Devil
+037            04             30         097            006            -1             //Devil
+040            04             30         117            008            -1             //Death Knight
+037            04             30         124            011            -1             //Devil
+037            04             30         133            026            -1             //Devil
+037            04             30         134            037            -1             //Devil
+037            04             30         134            049            -1             //Devil
+040            04             30         123            054            -1             //Death Knight
+037            04             30         115            053            -1             //Devil
+037            04             30         098            054            -1             //Devil
+037            04             30         084            054            -1             //Devil
+037            04             30         093            041            -1             //Devil
+037            04             30         099            040            -1             //Devil
+037            04             30         101            029            -1             //Devil
+037            04             30         098            017            -1             //Devil
+037            04             30         112            016            -1             //Devil
+037            04             30         124            041            -1             //Devil
+037            04             30         111            039            -1             //Devil
+040            04             30         086            041            -1             //Death Knight
+040            04             30         098            024            -1             //Death Knight
+040            04             30         115            028            -1             //Death Knight
+040            04             30         055            015            -1             //Death Knight
+040            04             30         046            013            -1             //Death Knight
+037            04             30         039            011            -1             //Devil
+040            04             30         022            017            -1             //Death Knight
+037            04             30         014            024            -1             //Devil
+037            04             30         053            039            -1             //Devil
+040            04             30         010            041            -1             //Death Knight
+037            04             30         007            052            -1             //Devil
+040            04             30         015            054            -1             //Death Knight
+037            04             30         025            049            -1             //Devil
+040            04             30         038            048            -1             //Death Knight
+040            04             30         048            048            -1             //Death Knight
+040            04             30         041            057            -1             //Death Knight
+034            04             30         123            201            -1             //Cursed Wizard
+040            04             30         055            028            -1             //Death Knight
+035            04             30         046            025            -1             //Death Gorgon
+037            04             30         030            032            -1             //Devil
+035            04             30         023            040            -1             //Death Gorgon
+040            04             30         022            030            -1             //Death Knight
+040            04             30         039            038            -1             //Death Knight
+040            04             30         006            098            -1             //Death Knight
+040            04             30         033            086            -1             //Death Knight
+040            04             30         046            086            -1             //Death Knight
+040            04             30         055            087            -1             //Death Knight
+040            04             30         053            097            -1             //Death Knight
+035            04             30         042            097            -1             //Death Gorgon
+040            04             30         035            098            -1             //Death Knight
+040            04             30         025            098            -1             //Death Knight
+035            04             30         015            127            -1             //Death Gorgon
+040            04             30         008            107            -1             //Death Knight
+040            04             30         053            116            -1             //Death Knight
+040            04             30         041            121            -1             //Death Knight
+034            04             30         115            167            -1             //Cursed Wizard
+040            04             30         025            135            -1             //Death Knight
+040            04             30         042            135            -1             //Death Knight
+040            04             30         052            135            -1             //Death Knight
+035            04             30         030            171            -1             //Death Gorgon
+040            04             30         038            227            -1             //Death Knight
+035            04             30         008            191            -1             //Death Gorgon
+040            04             30         051            183            -1             //Death Knight
+035            04             30         008            211            -1             //Death Gorgon
+035            04             30         008            231            -1             //Death Gorgon
+035            04             30         015            244            -1             //Death Gorgon
+035            04             30         018            107            -1             //Death Gorgon
+035            04             30         039            246            -1             //Death Gorgon
+035            04             30         011            175            -1             //Death Gorgon
+035            04             30         054            220            -1             //Death Gorgon
+035            04             30         031            127            -1             //Death Gorgon
+035            04             30         055            195            -1             //Death Gorgon
+034            04             30         105            175            -1             //Cursed Wizard
+035            04             30         055            174            -1             //Death Gorgon
+038            04             30         031            212            -1             //Balrog
+035            04             30         030            233            -1             //Death Gorgon
+035            04             30         021            216            -1             //Death Gorgon
+035            04             30         038            212            -1             //Death Gorgon
+035            04             30         029            200            -1             //Death Gorgon
+040            04             30         024            189            -1             //Death Knight
+040            04             30         048            167            -1             //Death Knight
+040            04             30         041            167            -1             //Death Knight
+035            04             30         038            234            -1             //Death Gorgon
+037            04             30         038            201            -1             //Devil
+037            04             30         018            200            -1             //Devil
+037            04             30         013            191            -1             //Devil
+037            04             30         038            192            -1             //Devil
+034            04             30         215            174            -1             //Cursed Wizard
+034            04             30         245            168            -1             //Cursed Wizard
+034            04             30         235            214            -1             //Cursed Wizard
+034            04             30         165            223            -1             //Cursed Wizard
+034            04             30         127            239            -1             //Cursed Wizard
+034            04             30         125            180            -1             //Cursed Wizard
+034            04             30         113            189            -1             //Cursed Wizard
+034            04             30         098            231            -1             //Cursed Wizard
+037            04             30         089            119            -1             //Devil
+037            04             30         086            100            -1             //Devil
+037            04             30         108            116            -1             //Devil
+037            04             30         126            108            -1             //Devil
+037            04             30         086            026            -1             //Devil
+037            04             30         111            026            -1             //Devil
+037            04             30         048            017            -1             //Devil
+037            04             30         013            009            -1             //Devil
+037            04             30         016            041            -1             //Devil
+037            04             30         038            053            -1             //Devil
+037            04             30         054            051            -1             //Devil
+037            04             30         045            032            -1             //Devil
+037            04             30         025            086            -1             //Devil
+037            04             30         052            092            -1             //Devil
+end
+
+3
+//Monster      MapNumber      Range      BeginPosX      BeginPosY      EndPosX      EndPosY      Direction      Quantity      Value      Comment
+494            04             00         010			010			   240			240          -1             03            0          //Golden Devil
+365            04             30         010            010            240          240          -1             10            0          //Pouch of Blessing
+413            04             30         010            010            240          240          -1             10            0          //Lunar Rabbit
+463            04             30         010            010            240          240          -1             10            0          //Fire Flame Ghost
+
+end

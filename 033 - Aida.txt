@@ -1,0 +1,341 @@
+//######################################################################################################################
+//#MonsterSetBase: Aida
+//######################################################################################################################
+//#Section: #0(Npc) #1(Spot) #2(Monster Individual) #3(Invasion) #4(Events) 5#(Kanturu Monster)
+//######################################################################################################################
+
+0
+//######################################################################################################################
+//#Monster    #MapNumber    #Range     #PositionX     #PositionY   #Direction    #Comment
+//######################################################################################################################
+369            33             00         078            013            02             //Osbourne
+370            33             00         086            013            01             //Jerridon
+end
+
+1
+//######################################################################################################################
+//#Monster    #MapNumber    #Range      #BeginPosX     #BeginPosY     #EndPosX    #EndPosY      #Direction     #Quantity
+//######################################################################################################################
+308	33	01	102	9	102	9	-1	4	// DeathTree
+308	33	01	127	31	127	31	-1	4	// DeathTree
+307	33	01	152	13	152	13	-1	4	// ForestOrc
+307	33	01	155	50	155	50	-1	4	// ForestOrc
+307	33	01	187	20	187	20	-1	4	// ForestOrc
+306	33	01	228	16	228	16	-1	4	// DeathRider
+306	33	01	215	36	215	36	-1	4	// DeathRider
+306	33	01	168	81	168	81	-1	4	// DeathRider
+306	33	01	230	41	230	41	-1	2	// DeathRider
+307	33	01	231	43	231	43	-1	2	// ForestOrc
+307	33	01	208	71	208	71	-1	2	// ForestOrc
+306	33	01	208	72	208	72	-1	2	// DeathRider
+306	33	01	238	96	238	96	-1	2	// DeathRider
+307	33	01	239	97	239	97	-1	2	// ForestOrc
+308	33	01	198	111	198	111	-1	2	// DeathTree
+307	33	01	199	111	199	111	-1	2	// ForestOrc
+305	33	01	236	139	236	139	-1	4	// BlueGolem
+305	33	01	214	167	214	168	-1	4	// BlueGolem
+305	33	01	207	197	207	197	-1	2	// BlueGolem
+306	33	01	207	200	207	200	-1	2	// DeathRider
+306	33	01	240	236	240	236	-1	2	// DeathRider
+305	33	01	241	237	241	236	-1	2	// BlueGolem
+305	33	01	197	153	197	153	-1	2	// BlueGolem
+306	33	01	198	153	198	153	-1	2	// DeathRider
+306	33	01	163	119	163	119	-1	2	// DeathRider
+305	33	01	164	119	164	119	-1	2	// BlueGolem
+307	33	01	173	212	173	212	-1	4	// ForestOrc
+304	33	01	160	236	160	236	-1	4	// WitchQueen
+304	33	01	129	232	129	232	-1	4	// WitchQueen
+304	33	01	133	144	133	144	-1	4	// WitchQueen
+304	33	01	127	185	127	185	-1	2	// WitchQueen
+305	33	01	128	185	128	187	-1	2	// BlueGolem
+305	33	01	78	227	78	227	-1	2	// BlueGolem
+304	33	01	79	228	79	228	-1	2	// WitchQueen
+305	33	01	46	226	46	226	-1	4	// BlueGolem
+305	33	01	24	187	24	187	-1	4	// BlueGolem
+306	33	01	54	157	54	157	-1	4	// DeathRider
+304	33	01	46	133	46	133	-1	4	// WitchQueen
+304	33	01	36	96	36	96	-1	4	// WitchQueen
+304	33	01	94	171	94	171	-1	2	// WitchQueen
+306	33	01	94	172	94	172	-1	2	// DeathRider
+306	33	01	87	105	87	105	-1	2	// DeathRider
+305	33	01	88	104	88	105	-1	2	// BlueGolem
+305	33	01	89	55	89	55	-1	2	// BlueGolem
+304	33	01	89	56	89	55	-1	2	// WitchQueen
+304	33	01	118	71	118	71	-1	4	// WitchQueen
+304	33	01	132	105	132	104	-1	4	// WitchQueen
+end
+
+2
+//Monster      MapNumber      Range      PositionX      PositionY      Direction      Comment
+304            33             30         106            049            -1             //Witch Queen
+304            33             30         120            097            -1             //Witch Queen
+304            33             30         125            082            -1             //Witch Queen
+304            33             30         137            125            -1             //Witch Queen
+304            33             30         141            076            -1             //Witch Queen
+305            33             30         081            080            -1             //Blue Golem
+305            33             30         083            121            -1             //Blue Golem
+305            33             30         088            062            -1             //Blue Golem
+305            33             30         092            045            -1             //Blue Golem
+305            33             30         092            086            -1             //Blue Golem
+305            33             30         094            158            -1             //Blue Golem
+305            33             30         094            158            -1             //Blue Golem
+305            33             30         095            150            -1             //Blue Golem
+305            33             30         102            175            -1             //Blue Golem
+305            33             30         104            042            -1             //Blue Golem
+305            33             30         104            160            -1             //Blue Golem
+305            33             30         111            094            -1             //Blue Golem
+305            33             30         113            155            -1             //Blue Golem
+305            33             30         114            067            -1             //Blue Golem
+305            33             30         125            112            -1             //Blue Golem
+305            33             30         126            073            -1             //Blue Golem
+305            33             30         131            094            -1             //Blue Golem
+305            33             30         133            079            -1             //Blue Golem
+305            33             30         133            133            -1             //Blue Golem
+305            33             30         134            106            -1             //Blue Golem
+305            33             30         136            066            -1             //Blue Golem
+305            33             30         146            072            -1             //Blue Golem
+305            33             30         148            093            -1             //Blue Golem
+305            33             30         157            166            -1             //Blue Golem
+305            33             30         167            127            -1             //Blue Golem
+305            33             30         168            140            -1             //Blue Golem
+305            33             30         168            168            -1             //Blue Golem
+305            33             30         169            174            -1             //Blue Golem
+305            33             30         180            040            -1             //Blue Golem
+305            33             30         185            147            -1             //Blue Golem
+305            33             30         194            019            -1             //Blue Golem
+305            33             30         197            148            -1             //Blue Golem
+305            33             30         208            168            -1             //Blue Golem
+305            33             30         235            101            -1             //Blue Golem
+306            33             30         085            145            -1             //Death Rider
+306            33             30         088            126            -1             //Death Rider
+306            33             30         089            109            -1             //Death Rider
+306            33             30         093            173            -1             //Death Rider
+306            33             30         100            058            -1             //Death Rider
+306            33             30         119            056            -1             //Death Rider
+306            33             30         126            156            -1             //Death Rider
+306            33             30         126            156            -1             //Death Rider
+306            33             30         136            144            -1             //Death Rider
+306            33             30         145            087            -1             //Death Rider
+306            33             30         149            112            -1             //Death Rider
+306            33             30         161            117            -1             //Death Rider
+306            33             30         167            152            -1             //Death Rider
+306            33             30         176            124            -1             //Death Rider
+306            33             30         186            089            -1             //Death Rider
+306            33             30         189            179            -1             //Death Rider
+306            33             30         190            144            -1             //Death Rider
+306            33             30         191            138            -1             //Death Rider
+306            33             30         207            054            -1             //Death Rider
+306            33             30         209            075            -1             //Death Rider
+306            33             30         221            060            -1             //Death Rider
+306            33             30         223            158            -1             //Death Rider
+306            33             30         227            052            -1             //Death Rider
+306            33             30         230            012            -1             //Death Rider
+306            33             30         233            061            -1             //Death Rider
+306            33             30         234            071            -1             //Death Rider
+306            33             30         234            146            -1             //Death Rider
+306            33             30         235            090            -1             //Death Rider
+307            33             30         086            171            -1             //Forest Orc
+307            33             30         126            020            -1             //Forest Orc
+307            33             30         126            026            -1             //Forest Orc
+307            33             30         148            010            -1             //Forest Orc
+307            33             30         148            019            -1             //Forest Orc
+307            33             30         149            035            -1             //Forest Orc
+307            33             30         157            016            -1             //Forest Orc
+307            33             30         158            046            -1             //Forest Orc
+307            33             30         166            057            -1             //Forest Orc
+307            33             30         172            011            -1             //Forest Orc
+307            33             30         176            060            -1             //Forest Orc
+307            33             30         183            096            -1             //Forest Orc
+307            33             30         187            017            -1             //Forest Orc
+307            33             30         189            055            -1             //Forest Orc
+307            33             30         190            040            -1             //Forest Orc
+307            33             30         190            079            -1             //Forest Orc
+307            33             30         194            033            -1             //Forest Orc
+307            33             30         196            045            -1             //Forest Orc
+307            33             30         199            108            -1             //Forest Orc
+307            33             30         210            122            -1             //Forest Orc
+307            33             30         212            062            -1             //Forest Orc
+307            33             30         213            082            -1             //Forest Orc
+307            33             30         213            137            -1             //Forest Orc
+307            33             30         214            010            -1             //Forest Orc
+307            33             30         225            149            -1             //Forest Orc
+307            33             30         226            067            -1             //Forest Orc
+307            33             30         226            140            -1             //Forest Orc
+307            33             30         233            125            -1             //Forest Orc
+307            33             30         234            111            -1             //Forest Orc
+307            33             30         234            155            -1             //Forest Orc
+307            33             30         236            135            -1             //Forest Orc
+308            33             30         103            016            -1             //Death Tree
+308            33             30         113            008            -1             //Death Tree
+308            33             30         118            016            -1             //Death Tree
+308            33             30         136            023            -1             //Death Tree
+308            33             30         137            013            -1             //Death Tree
+308            33             30         150            046            -1             //Death Tree
+308            33             30         157            023            -1             //Death Tree
+308            33             30         158            010            -1             //Death Tree
+308            33             30         162            070            -1             //Death Tree
+308            33             30         164            018            -1             //Death Tree
+308            33             30         166            048            -1             //Death Tree
+308            33             30         174            023            -1             //Death Tree
+308            33             30         177            016            -1             //Death Tree
+308            33             30         189            038            -1             //Death Tree
+308            33             30         189            095            -1             //Death Tree
+308            33             30         195            026            -1             //Death Tree
+308            33             30         196            099            -1             //Death Tree
+308            33             30         200            071            -1             //Death Tree
+308            33             30         204            012            -1             //Death Tree
+308            33             30         205            031            -1             //Death Tree
+308            33             30         206            091            -1             //Death Tree
+308            33             30         214            114            -1             //Death Tree
+308            33             30         219            091            -1             //Death Tree
+308            33             30         222            075            -1             //Death Tree
+308            33             30         223            130            -1             //Death Tree
+308            33             30         228            111            -1             //Death Tree
+309            33             30         108            147            -1             //Hell Maine
+309            33             30         112            047            -1             //Hell Maine
+309            33             30         123            103            -1             //Hell Maine
+306            33             30         228            017            -1             //Death Rider
+308            33             30         226            011            -1             //Death Tree
+306            33             30         236            033            -1             //Death Rider
+306            33             30         237            038            -1             //Death Rider
+307            33             30         232            038            -1             //Forest Orc
+306            33             30         169            085            -1             //Death Rider
+307            33             30         171            082            -1             //Forest Orc
+306            33             30         193            150            -1             //Death Rider
+305            33             30         195            153            -1             //Blue Golem
+549            33             30         211            204            -1             //Bloody Orc
+549            33             30         199            200            -1             //Bloody Orc
+550            33             30         206            197            -1             //Bloody Death Rider
+550            33             30         203            213            -1             //Bloody Death Rider
+549            33             30         208            210            -1             //Bloody Orc
+549            33             30         192            207            -1             //Bloody Orc
+549            33             30         221            236            -1             //Bloody Orc
+549            33             30         215            238            -1             //Bloody Orc
+549            33             30         228            219            -1             //Bloody Orc
+549            33             30         218            224            -1             //Bloody Orc
+549            33             30         232            217            -1             //Bloody Orc
+549            33             30         240            230            -1             //Bloody Orc
+549            33             30         237            236            -1             //Bloody Orc
+549            33             30         186            207            -1             //Bloody Orc
+549            33             30         171            212            -1             //Bloody Orc
+549            33             30         158            216            -1             //Bloody Orc
+549            33             30         162            194            -1             //Bloody Orc
+549            33             30         148            198            -1             //Bloody Orc
+550            33             30         154            193            -1             //Bloody Death Rider
+550            33             30         152            211            -1             //Bloody Death Rider
+550            33             30         170            203            -1             //Bloody Death Rider
+550            33             30         165            215            -1             //Bloody Death Rider
+550            33             30         155            231            -1             //Bloody Death Rider
+550            33             30         159            228            -1             //Bloody Death Rider
+549            33             30         158            235            -1             //Bloody Orc
+549            33             30         163            237            -1             //Bloody Orc
+550            33             30         138            200            -1             //Bloody Death Rider
+550            33             30         126            184            -1             //Bloody Death Rider
+551            33             30         128            190            -1             //Bloody Golem
+551            33             30         143            198            -1             //Bloody Golem
+551            33             30         135            196            -1             //Bloody Golem
+551            33             30         127            230            -1             //Bloody Golem
+551            33             30         130            218            -1             //Bloody Golem
+550            33             30         131            227            -1             //Bloody Death Rider
+550            33             30         127            224            -1             //Bloody Death Rider
+550            33             30         137            218            -1             //Bloody Death Rider
+550            33             30         122            200            -1             //Bloody Death Rider
+551            33             30         123            195            -1             //Bloody Golem
+551            33             30         138            188            -1             //Bloody Golem
+551            33             30         136            184            -1             //Bloody Golem
+549            33             30         067            227            -1             //Bloody Orc
+549            33             30         073            222            -1             //Bloody Orc
+549            33             30         082            228            -1             //Bloody Orc
+549            33             30         040            224            -1             //Bloody Orc
+549            33             30         038            206            -1             //Bloody Orc
+550            33             30         104            203            -1             //Bloody Death Rider
+550            33             30         099            203            -1             //Bloody Death Rider
+550            33             30         075            228            -1             //Bloody Death Rider
+551            33             30         087            209            -1             //Bloody Golem
+551            33             30         077            212            -1             //Bloody Golem
+551            33             30         066            209            -1             //Bloody Golem
+552            33             30         045            227            -1             //Bloody Witch Queen
+552            33             30         044            219            -1             //Bloody Witch Queen
+552            33             30         032            205            -1             //Bloody Witch Queen
+552            33             30         026            182            -1             //Bloody Witch Queen
+551            33             30         022            190            -1             //Bloody Golem
+551            33             30         028            191            -1             //Bloody Golem
+550            33             30         082            216            -1             //Bloody Death Rider
+550            33             30         033            222            -1             //Bloody Death Rider
+551            33             30         040            184            -1             //Bloody Golem
+551            33             30         044            176            -1             //Bloody Golem
+551            33             30         039            178            -1             //Bloody Golem
+552            33             30         050            158            -1             //Bloody Witch Queen
+552            33             30         056            160            -1             //Bloody Witch Queen
+550            33             30         054            155            -1             //Bloody Death Rider
+550            33             30         042            179            -1             //Bloody Death Rider
+550            33             30         026            134            -1             //Bloody Death Rider
+550            33             30         026            118            -1             //Bloody Death Rider
+550            33             30         047            125            -1             //Bloody Death Rider
+550            33             30         046            212            -1             //Bloody Death Rider
+550            33             30         020            181            -1             //Bloody Death Rider
+552            33             30         024            186            -1             //Bloody Witch Queen
+551            33             30         055            120            -1             //Bloody Golem
+551            33             30         022            127            -1             //Bloody Golem
+551            33             30         035            116            -1             //Bloody Golem
+552            33             30         043            134            -1             //Bloody Witch Queen
+552            33             30         054            117            -1             //Bloody Witch Queen
+552            33             30         039            119            -1             //Bloody Witch Queen
+552            33             30         020            133            -1             //Bloody Witch Queen
+552            33             30         026            146            -1             //Bloody Witch Queen
+552            33             30         039            148            -1             //Bloody Witch Queen
+552            33             30         051            123            -1             //Bloody Witch Queen
+552            33             30         035            107            -1             //Bloody Witch Queen
+552            33             30         036            093            -1             //Bloody Witch Queen
+552            33             30         037            077            -1             //Bloody Witch Queen
+551            33             30         025            061            -1             //Bloody Golem
+551            33             30         025            049            -1             //Bloody Golem
+551            33             30         051            048            -1             //Bloody Golem
+551            33             30         051            060            -1             //Bloody Golem
+550            33             30         026            054            -1             //Bloody Death Rider
+550            33             30         053            053            -1             //Bloody Death Rider
+552            33             30         046            054            -1             //Bloody Witch Queen
+552            33             30         031            053            -1             //Bloody Witch Queen
+306            33             30         204            172            -1             //Death Rider
+306            33             30         090            203            -1             //Death Rider
+305            33             30         117            073            -1             //Blue Golem
+305            33             30         114            101            -1             //Blue Golem
+305            33             30         086            155            -1             //Blue Golem
+305            33             30         230            132            -1             //Blue Golem
+551            33             30         199            207            -1             //Bloody Golem
+551            33             30         218            232            -1             //Bloody Golem
+551            33             30         236            232            -1             //Bloody Golem
+551            33             30         160            232            -1             //Bloody Golem
+551            33             30         039            222            -1             //Bloody Golem
+306            33             30         188            027            -1             //Death Rider
+306            33             30         228            060            -1             //Death Rider
+304            33             30         088            073            -1             //Witch Queen
+307            33             30         168            082            -1             //Forest Orc
+307            33             30         166            073            -1             //Forest Orc
+307            33             30         234            036            -1             //Forest Orc
+306            33             30         215            032            -1             //Death Rider
+306            33             30         217            036            -1             //Death Rider
+308            33             30         213            038            -1             //Death Tree
+308            33             30         216            038            -1             //Death Tree
+306            33             30         214            035            -1             //Death Rider
+end
+
+3
+//Monster      MapNumber      Range      BeginPosX      BeginPosY      EndPosX      EndPosY      Direction      Quantity      Value      Comment
+495            33             00         010			010			   240			240          -1             03            0          //Golden Stone Golem
+end
+
+3
+//Monster      MapNumber      Range      BeginPosX      BeginPosY      EndPosX      EndPosY      Direction      Quantity      Value      Comment
+365            33             30         010            010            240          240          -1             10            0          //Pouch of Blessing
+end
+
+3
+//Monster      MapNumber      Range      BeginPosX      BeginPosY      EndPosX      EndPosY      Direction      Quantity      Value      Comment
+463            33             30         010            010            240          240          -1             10            0          //Fire Flame Ghost
+end
+
+3
+//Monster      MapNumber      Range      BeginPosX      BeginPosY      EndPosX      EndPosY      Direction      Quantity      Value      Comment
+413            33             30         010            010            240          240          -1             10            0          //Lunar Rabbit
+end
